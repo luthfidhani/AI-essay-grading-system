@@ -1,0 +1,27 @@
+1. Pemrograman Berorientasi Objek (OOP) adalah cara menulis program dengan menggunakan objek. Objek ini punya data (atribut) dan fungsi (metode) yang menggambarkan sesuatu dari dunia nyata. Misalnya, dalam OOP ada konsep inheritance (pewarisan), di mana satu kelas bisa mengambil sifat dari kelas lain. Encapsulation (enkapsulasi) berarti kita menyembunyikan data agar tidak bisa diubah langsung dari luar kelas. Polymorphism berarti fungsi bisa berperilaku berbeda tergantung objeknya.
+OOP lebih baik dari pemrograman prosedural karena lebih terorganisir dan lebih mudah di-maintain, terutama untuk program besar seperti aplikasi bank atau game.
+
+2. Algoritma adalah langkah-langkah untuk menyelesaikan masalah, sedangkan struktur data adalah cara menyimpan data di program. Memahami keduanya penting supaya program bisa berjalan cepat dan efisien. Misalnya, kalau kita mau mencari nama dalam daftar panjang, kita bisa pakai Hash Table yang lebih cepat dibandingkan Array. Memilih struktur data yang salah bisa bikin program jadi lambat atau makan banyak memori.
+
+3. Pemrograman fungsional adalah cara menulis kode yang lebih fokus pada fungsi dan hasilnya, tidak mengubah data secara langsung. Sementara itu, OOP lebih fokus pada objek yang punya data dan fungsi. Kita pilih pemrograman fungsional kalau butuh kode yang lebih mudah diuji dan dibaca, misalnya untuk aplikasi yang mengolah data. OOP lebih cocok kalau kita buat aplikasi yang banyak objeknya, seperti game.
+
+4. Error handling penting supaya program tidak crash saat ada kesalahan. Kita bisa pakai try-catch untuk menangkap kesalahan dan memberikan pesan error yang jelas. Contoh di Python:
+```
+try:
+    hasil = 10 / 0
+except ZeroDivisionError:
+    print("Tidak bisa membagi dengan nol!")
+```
+Debugging adalah mencari dan memperbaiki bug. Kita bisa pakai alat seperti debugger atau tambahkan print untuk cari tahu di mana bug-nya.
+
+5. Aplikasi web biasanya punya dua bagian: frontend (apa yang dilihat pengguna) dan backend (logika di server). Frontend dibuat dengan HTML, CSS, dan JavaScript, sementara backend ditulis dengan bahasa seperti Python atau Node.js. Frontend dan backend saling komunikasi lewat API untuk tukar data.
+
+6. Pemrograman paralel berarti menjalankan beberapa tugas bersamaan supaya lebih cepat. Multithreading adalah cara menjalankan beberapa "thread" dalam satu program. Ini berguna untuk program yang harus melakukan banyak tugas sekaligus, seperti server yang menangani banyak permintaan. Tapi, pemrograman paralel juga bisa lebih rumit karena kita harus pastikan tidak ada thread yang konflik.
+
+7. Keamanan penting untuk mencegah peretas mengakses data kita. Beberapa cara untuk membuat kode lebih aman adalah dengan memvalidasi input pengguna, menggunakan HTTPS untuk enkripsi data, dan memastikan hanya pengguna yang punya izin yang bisa mengakses fitur tertentu. Menggunakan praktik terbaik ini membantu melindungi aplikasi dari serangan seperti SQL Injection atau XSS.
+
+8. VCS adalah alat yang melacak perubahan dalam kode. Git adalah salah satu VCS yang populer. Dengan Git, kita bisa buat branch untuk mengembangkan fitur baru tanpa mengganggu kode utama, dan setelah selesai, kita bisa gabungkan kembali. Ini sangat membantu untuk kerja tim supaya tidak ada yang menimpa kerjaan orang lain.
+
+9. Pemrograman penting di machine learning untuk mengolah data dan membuat model prediksi. Python banyak dipakai karena punya pustaka seperti scikit-learn, TensorFlow, dan lainnya yang memudahkan pemrosesan data dan pelatihan model. Python juga mudah dibaca, jadi orang bisa lebih cepat memahami kode dan algoritma yang dipakai.
+
+10. API adalah cara bagi aplikasi yang berbeda untuk saling berkomunikasi. API membantu integrasi antara frontend dan backend atau antara aplikasi yang berbeda. Misalnya, API RESTful sering digunakan karena mudah dipahami dan diterapkan. Penting untuk membuat API yang aman dan terdokumentasi dengan baik supaya pengembang lain bisa memakainya dengan benar.

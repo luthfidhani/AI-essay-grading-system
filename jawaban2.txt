@@ -1,0 +1,19 @@
+1. OOP adalah cara membuat program pakai objek. Objek punya data dan fungsi. Ada beberapa konsep seperti inheritance yang artinya bisa turunan dari kelas lain. Contoh lain ada encapsulation yang menyembunyikan data.
+
+2. Algoritma adalah langkah-langkah menyelesaikan masalah. Struktur data adalah cara menyimpan data. Keduanya penting supaya program cepat dan tidak lambat.
+
+3. Pemrograman fungsional pakai fungsi-fungsi. OOP pakai objek. Pemrograman fungsional lebih sederhana kalau cuma hitung-hitungan. OOP dipakai kalau ada objek yang banyak.
+
+4. Error handling adalah menangani kesalahan. Bisa pakai try-catch supaya program nggak berhenti. Debugging itu cari kesalahan di program dan memperbaikinya.
+
+5. Aplikasi web ada frontend dan backend. Frontend itu yang dilihat user, backend yang di server. Frontend pakai HTML, CSS, dan JavaScript. Backend pakai Python, Java, dll. Mereka pakai API buat komunikasi.
+
+6. Pemrograman paralel artinya menjalankan beberapa tugas sekaligus supaya lebih cepat. Multithreading itu pakai beberapa thread. Ini berguna buat aplikasi yang banyak prosesnya.
+
+7. Keamanan penting supaya program tidak kena hack. Misalnya, harus memvalidasi input dan pakai HTTPS.
+
+8. VCS adalah alat untuk melacak perubahan dalam kode. Git adalah contohnya. Git membantu tim bekerja sama dengan lebih baik.
+
+9. Machine Learning pakai pemrograman buat melatih model dan memproses data. Python banyak digunakan karena ada banyak pustaka yang mendukung machine learning.
+
+10. API adalah antarmuka untuk komunikasi antar aplikasi. API dipakai buat integrasi antara frontend dan backend. API harus didesain dengan baik dan aman.
